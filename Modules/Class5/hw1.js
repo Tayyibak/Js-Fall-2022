@@ -28,11 +28,11 @@
 
  
 
-let fTemp1 = 90;
+let fahrenheitTemp1 = 90;
 
-let cTemp1 = (fTemp1 - 32) * 5/9;
+let celsiusTemp1 = (fTemp1 - 32) * 5/9;
 
-console.log(`\n${fTemp1}°F is equals to ${cTemp1}°C`);
+console.log(`\n${fahrenheitTemp1}°F is equals to ${celsiusTemp1}°C`);
 
 
 
@@ -40,9 +40,9 @@ console.log(`\n${fTemp1}°F is equals to ${cTemp1}°C`);
 
  
 
-let kTemp = (fTemp1 + 459.67) * 5/9;
+let kelvinTemp = (fahrenheitTemp1 + 459.67) * 5/9;
 
-console.log(`${fTemp1}°F is equal to ${kTemp}°K`)
+console.log(`${fahrenheitTemp1}°F is equal to ${kelvinTemp}°K`)
 
 
 
@@ -50,11 +50,11 @@ console.log(`${fTemp1}°F is equal to ${kTemp}°K`)
 
 
 
-let cTemp2 = 25;
+let celsiusTemp2 = 25;
 
-let Ftemp2 = (cTemp2 * 1.8) + 32;
+let FahrenheitTemp2 = (cTemp2 * 1.8) + 32;
 
-console.log(`${cTemp2}°C is equal to ${Ftemp2}°F`);
+console.log(`${celsiusTemp2}°C is equal to ${FahrenheitTemp2}°F`);
 
 
 
@@ -62,9 +62,9 @@ console.log(`${cTemp2}°C is equal to ${Ftemp2}°F`);
 
 
 
-let Ktemp2 = cTemp2 + 273.15;
+let KelvinTemp2 = cTemp2 + 273.15;
 
-console.log(`${cTemp2}°C is equal to ${Ktemp2}`);
+console.log(`${celsiusTemp2}°C is equal to ${KelvinTemp2}`);
 
 
 
@@ -72,18 +72,18 @@ console.log(`${cTemp2}°C is equal to ${Ktemp2}`);
 
 
 
-let kTemp3 = 80;
+let kelvinTemp3 = 80;
 
-let Ftemp3 = (kTemp3 * 9/5) - 459.67
+let FahrenheitTemp3 = (kelvinTemp3 * 9/5) - 459.67
 
-console.log(`${kTemp3}°k is equal to ${Ftemp3}°F`);
+console.log(`${kelvinTemp3}°k is equal to ${FahrenheitTemp3}°F`);
 
 
 
 // Converting Kelvin to celsius down here
 
-let cTemp3 = kTemp3 - 273.15;
+let celsiusTemp3 = kelvintemp3 - 273.15;
 
-console.log(`${kTemp3}°K is equal to ${cTemp3}`);
+console.log(`${kelvinTemp3}°K is equal to ${celsiusTemp3}`);
 
  
